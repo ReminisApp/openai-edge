@@ -2,7 +2,7 @@
   "version": "1.2.1",
   "name": "openai-edge",
   "umd:name": "openai-edge",
-  "repository": "dan-kwiat/openai-edge",
+  "repository": "ReminisApp/openai-edge",
   "description": "Use OpenAI's API from an edge runtime, using standard Web APIs only",
   "unpkg": "dist/index.min.js",
   "module": "dist/index.mjs",
