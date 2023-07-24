@@ -118,6 +118,8 @@ export class Configuration {
     this.baseOptions.headers = {
       // "User-Agent": `OpenAI/NodeJS/${packageJson.version}`,
       Authorization: `Bearer ${this.apiKey}`,
+      "HTTP-Referer": `https://keymate.ai`,
+      "X-Title": `keymate.ai`,
       ...this.baseOptions.headers,
     }
     if (this.organization) {
